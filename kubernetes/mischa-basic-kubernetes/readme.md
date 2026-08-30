@@ -33,4 +33,13 @@ Get information for the memory in debian
 - apt install htop
 
 
+/////////////////////////// DEPLOYMENT /////////////////////////////
+
+Create a deployment test
+- k create deployment test --image=httpd --replicas=3
+
+Watch command used to run at every interval
+- watch -n 1 'command which needs to run '
+
+
 
