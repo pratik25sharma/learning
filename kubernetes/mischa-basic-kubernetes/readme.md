@@ -19,3 +19,18 @@ Dry run a yaml file for pod
 Generate a yaml file for the pod
 - kubectl run nginx-yaml --image=nginx --dry-run=client -o yaml > nginx.yaml
 
+Entering a kub pod
+- k exec -it pod_name 
+- k exec -it pod_name -- /bin/bash
+
+Check the Ip of the pod
+- k get pods -o wide
+
+One pod can interact with another pod in the kubernetes by using the ip of it
+
+Get information for the memory in debian
+- apt update
+- apt install htop
+
+
+
