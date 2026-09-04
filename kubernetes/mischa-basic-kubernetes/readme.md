@@ -42,4 +42,10 @@ Watch command used to run at every interval
 - watch -n 1 'command which needs to run '
 
 
+/// /////////////////////// SERVICE ////////////////////////////////
+- port forward can be done to the services as well
+- expose deployment creates the services
+
+
+
 
