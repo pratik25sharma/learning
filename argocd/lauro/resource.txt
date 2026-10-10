@@ -1,0 +1,4 @@
+argo cd repo: https://github.com/lm-academy/argocd-course
+argo rollout repo: https://github.com/lm-academy/argo-rollouts-course
+argocd example app: https://github.com/lm-academy/argocd-example-apps
+argocd example app fork: https://github.com/lm-academy/argocd-example-apps-labs
